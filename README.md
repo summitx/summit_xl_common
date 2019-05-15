@@ -51,6 +51,7 @@ This package contains the node that subscribes to /joy messages and publishes co
 The node allows to load different types of joysticks (PS4, PS3, Logitech, Thrustmaster). New models can be easily added by creating new .yaml files. If modbus_io node is available, the digital outputs (ligths, axes, etc.) can also be controlled with the pad. If ptz camera is available, the pan-tilt-zoom can also be commanded with the pad. 
 
 Dependencies
+- ROS
 - robotnik_sensors https://github.com/RobotnikAutomation/robotnik_sensors
 - robotnik_msgs https://github.com/RobotnikAutomation/robotnik_msgs
 - robot_localization `ros-melodic-robot-localization`
